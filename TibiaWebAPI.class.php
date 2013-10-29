@@ -89,8 +89,8 @@ class Player {
 	 * @return string
 	 */
 	public function isOnline($alt = array('Online', 'Offline')) {
-		$html = file_get_contents("http://www.tibia.com/community/?subtopic=worlds&world=" . urlencode($this->_world));
-		return (preg_match('#>('.str_replace(' ', '&nbsp;', $this->_name).'?)</a>#', $html)) ? $alt[0] : $alt[1];
+		$html = file_get_contents("http://www.tibia.com/community/?subtopic=worlds&world=" . urlencode($this->world));
+		return (preg_match('#>('.str_replace(' ', '&nbsp;', $this->name).'?)</a>#', $html)) ? $alt[0] : $alt[1];
 	}
 
 }
