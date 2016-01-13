@@ -1,6 +1,7 @@
 Tibia Website API
 ====================
 
+Test
 This is a simple PHP class to extracting information from the official Tibia website (http://www.tibia.com)
 
 Methods
