@@ -4,7 +4,6 @@ include_once "../TibiaWebAPI.class.php";
 $vip = array(
 	"Kamerat",
 	"Pyruvat",
-	"Julegave",
 	"CM Mirade",
 	"Sir Sippo"
 );
